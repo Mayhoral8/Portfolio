@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {FiMenu} from 'react-icons/fi'
+import {FaXmark} from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import './navbar.css'
 
@@ -18,7 +19,7 @@ return(<React.Fragment>
             mayhoral.dev
             </h1>
             </Link>
-        <FiMenu onClick={showHandler} className='text-white cursor-pointer font-bold text-2xl lg:hidden'/>
+        {!show ? <FiMenu onClick={showHandler} className='text-white cursor-pointer font-bold text-2xl lg:hidden'/> : <FaXmark onClick={showHandler} className='text-white cursor-pointer font-bold text-2xl lg:hidden'/> }
         </div>
         <article className={`${show ? 'visible' : 'hidden'} flex flex-col justify-evenly items-center h-screen lg:h-0 lg:flex lg:flex-row  lg:space-x-5`}>
             <div className='flex flex-col  text-white lg:flex-row lg:space-x-10'>
