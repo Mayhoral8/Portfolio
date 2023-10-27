@@ -12,7 +12,7 @@ function Navbar(){
             setShow(!show)
     }
 return(<React.Fragment>
-    <section className={`px-4 ${show ? 'h-screen' : 'h-16'} top-0 main fixed z-30 left-0 right-0 transition-all delay-400 duration-300 pt-2 lg:h-16 w-full flex flex-col lg:flex-row lg:justify-between lg:items-center`}>
+    <section className={`px-4 ${show ? 'h-screen' : 'h-16'}  top-0 main fixed z-30 left-0 right-0 transition-all delay-400 duration-300 pt-2 lg:h-20 lg:px-10 w-full flex flex-col lg:flex-row lg:justify-between lg:items-center`}>
         <div className='flex flex-row justify-between w-full items-center'>
             <Link to='/'>
             <h1 className=' text-white font-bold text-2xl'>
@@ -23,10 +23,10 @@ return(<React.Fragment>
         </div>
         <article className={`${show ? 'visible' : 'hidden'} flex flex-col justify-evenly items-center h-screen lg:h-0 lg:flex lg:flex-row  lg:space-x-5`}>
             <div className='flex flex-col  text-white lg:flex-row lg:space-x-10'>
-               <span className='text-2xl h-1/2'>Projects</span>
+               <span className='text-xl h-1/2'>Projects</span>
             </div>
             <div className='text-white'>
-               <span className='text-2xl h-1/2'>Contact</span>
+               <span className='text-xl h-1/2'>Contact</span>
             </div>
                
         </article>

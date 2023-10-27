@@ -9,7 +9,7 @@ import ProjectList from "./projects/projectList";
 function Homepage(){
 
     return(<>
-   <section className="mt-20 z-10 h-screen w-full lg:mt-16 text-center">
+   <section className="mt-20 z-10 h-screen w-full text-center">
     <article className="mt-10 text-white">
         <h1 className="text-3xl font-bold">Hi, I'm Mayowa</h1>
         <p className="mt-4 text-xl">I am a <span className="text-blue-600">Software Engineer</span>, <br/> and I provide custom web solutions <br/> for your services. </p>
