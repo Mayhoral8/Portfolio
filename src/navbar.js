@@ -23,10 +23,14 @@ return(<React.Fragment>
         </div>
         <article className={`${show ? 'visible' : 'hidden'} flex flex-col justify-evenly items-center h-screen lg:h-0 lg:flex lg:flex-row  lg:space-x-5`}>
             <div className='flex flex-col  text-white lg:flex-row lg:space-x-10'>
-               <span className='text-xl h-1/2'>Projects</span>
+                <Link to='/projects'>
+               <span className='text-xl h-1/2' onClick={showHandler}>Projects</span>
+                </Link>
             </div>
             <div className='text-white'>
-               <span className='text-xl h-1/2'>Contact</span>
+                <Link to='/contact'>
+               <span className='text-xl h-1/2' onClick={showHandler}>Contact</span>
+                </Link>
             </div>
                
         </article>
