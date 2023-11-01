@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from "./projects";
 import { projectData } from "./project-data";
-
+import Footer from "../footer";
 function ProjectList({type}){
     console.log(type);
     return(<>
@@ -17,6 +17,10 @@ function ProjectList({type}){
     })
 }
 </section>
+
+<div className="mt-4 py-4">
+<Footer/>
+</div>
     </>)
 }
 

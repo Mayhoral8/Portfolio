@@ -5,8 +5,8 @@ import {BiLogoLinkedin} from 'react-icons/bi'
 function Footer (){
 
     return(<React.Fragment>
-        <section className='text-white space-y-10 py-4'>
-        <article className='text-2xl flex flex-row justify-center space-x-4'>
+        <section className='text-white'>
+        <article className='text-2xl flex flex-row justify-center space-x-4 lg:space-x-10'>
             <AiFillGithub/>
             <AiOutlineTwitter/>
             <BiLogoLinkedin/>

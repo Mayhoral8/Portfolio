@@ -4,10 +4,18 @@ import nodejs from './assets/stack-images/nodejs.png'
 import reactjs from './assets/stack-images/reactjs.png'
 import mongodb from './assets/stack-images/mongodb.png'
 import ProjectList from "./projects/projectList";
+import {PiCaretRightBold} from 'react-icons/pi'
+import {RxCaretRight} from 'react-icons/rx'
 import Footer from "./footer";
 
 
 function Homepage(){
+    const scrollToTop = ()=>{
+        window.scrollTo({
+            top:0, left:0 , behavior: "smooth"
+          });
+    }
+    
 
     return(<>
    <section className="mt-20 lg:mt-28 z-10 w-full">
@@ -44,14 +52,34 @@ function Homepage(){
     <article className="text-center mt-10">
         <h1 className="text-white text-2xl lg:text-3xl font-bold">Featured Projects</h1>
         <ProjectList type='homepage'/>
+        
+<article className="w-40 mx-auto">
+        <Link to='/projects'>
+        <div onClick={scrollToTop} className="text-blue-500 mx-auto cursor-pointer items-center flex flex-row justify-center border-blue-500 border rounded-md h-10 mt-10">
+        <button>See More</button>
+        <span className="mt-1 text-2xl">
+       <RxCaretRight/>
+        </span>
+        </div>
+        </Link>
+</article>
+
     </article>
-    <article className='text-center space-y-4 text-white'>
+    <article className='text-center mt-16 flex flex-col space-y-5 text-white'>
           
                 <h1 className='text-2xl font-bold'>Let's work on your next project </h1>
-                <button className='bg-green-500 text-xl  h-10 w-4/5 rounded-md text-white'>Contact me</button>
+                <Link to='/contact'>
+                <button onClick={scrollToTop} className='bg-green-500 text-xl  h-10 lg:w-1/3 w-3/4 rounded-md text-white'>Contact me</button>
+                </Link>
+
+
             
         </article>
    </section>
+   <div className="mt-4 py-4">
+
+   <Footer/>
+   </div>
     </>)
 }
 

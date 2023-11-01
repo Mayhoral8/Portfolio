@@ -10,10 +10,10 @@ function App() {
       <Navbar/>
       <Routes>
      <Route path='/' element={<Homepage/>}/> 
-     <Route path='/contact' element={<Contact/>}/> 
      <Route path='/projects' element={<ProjectList/>}/> 
+     <Route path='/contact' element={<Contact/>}/> 
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
