@@ -55,7 +55,7 @@ function Homepage(){
         
 <article className="w-40 mx-auto">
         <Link to='/projects'>
-        <div onClick={scrollToTop} className="text-blue-500 mx-auto cursor-pointer items-center flex flex-row justify-center border-blue-500 border rounded-md h-10 mt-10">
+        <div onClick={scrollToTop} className="text-blue-500 mx-auto cursor-pointer items-center flex flex-row justify-center border-blue-500 border rounded-md h-10 mt-6 lg:mt-10">
         <button>See More</button>
         <span className="mt-1 text-2xl">
        <RxCaretRight/>

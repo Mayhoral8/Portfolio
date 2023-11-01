@@ -2,8 +2,8 @@ import React from "react";
 import Projects from "./projects";
 import { projectData } from "./project-data";
 import Footer from "../footer";
+
 function ProjectList({type}){
-    console.log(type);
     return(<>
     <section className='flex flex-col space-y-20 mt-16 text-center'>
     {projectData.map((obj, index)=>{
@@ -18,9 +18,12 @@ function ProjectList({type}){
 }
 </section>
 
+{ !type &&
 <div className="mt-4 py-4">
+    
 <Footer/>
 </div>
+}
     </>)
 }
 
