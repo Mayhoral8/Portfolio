@@ -14,8 +14,8 @@ function Projects(props){
         </div>
 
             </div>
-            <div className={`lg:ml-auto w-1/2 text-center grid grid-rows-3 order-1 mx-auto lg:mx-0`}>
-            <h1 className=' text-white'>{title}</h1>
+            <div className={`lg:ml-auto w-1/2 text-center  grid  grid-flow-row space-y-4 order-1 mx-auto lg:mx-0`}>
+            <h1 className=' text-white font-bold text-lg'>{title}</h1>
             <p className='text-white'>{description}</p>
         <div>
         <button className='bg-blue-600 text-white rounded-md w-40 h-10'>
