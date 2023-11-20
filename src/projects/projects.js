@@ -19,7 +19,7 @@ function Projects(props){
             <p className='text-white'>{description}</p>
         <div>
         <button className='bg-blue-600 text-white rounded-md w-40 h-10'>
-            <a href=''>Live Deployment</a></button>
+            <a href={liveLink} target='blank'>Live Deployment</a></button>
         </div>
             </div>
            

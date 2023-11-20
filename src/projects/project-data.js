@@ -10,15 +10,15 @@ export const projectData = [
         id: 1,
         title:'Techify',
         media: techify,
-        description: 'lorem ipsum sndamnmndasasmdnas amdnsmad amdnsad',
-        liveLink: '',
+        description: 'Techify is a gadgets e-commerce web store',
+        liveLink: 'https://techify2.netlify.app',
         sourceLink: ''
     },
     {
         id: 2,
         title:'Tasky',
         media: tasky,
-        description: 'orem ipsum sndamnmndasasmdnas amdnsmad amdnsad',
+        description: 'Tasky is a full-stack task management application built for keeping track of tasks',
         liveLink: '',
         sourceLink: ''
     },
@@ -26,8 +26,8 @@ export const projectData = [
         id: 3,
         title:'Linklop',
         media: linklop,
-        description: 'lorem ipsum sndamnmndasasmdnas amdnsmad amdnsad',
-        liveLink: '',
+        description: ' Built for product-based businesses, Linklop is your one-stop time url shortner. Linklop also generates qr codes for your URL. Start shortening and sharing today.',
+        liveLink: 'https://linklop.netlify.app',
         sourceLink: ''
     },
     {
