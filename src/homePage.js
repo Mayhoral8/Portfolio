@@ -21,7 +21,7 @@ function Homepage(){
    <section className="mt-20 lg:mt-28 z-10 w-full">
     <article className="mt-24 text-white lg:ml-10 text-center lg:text-start">
         <h1 className="lg:text-7xl text-6xl font-bold">Hi, I'm Mayowa</h1>
-        <p className="mt-4 lg:text-3xl text-3xl px-4 lg:px-0">I am a <span className="text-blue-600">Software Engineer</span>, <br/> and I provide custom web solutions for your services. </p>
+        <p className="mt-4 lg:text-3xl text-3xl px-4 lg:px-0">I am a <span className="text-blue-600">Software Developer</span>, <br/> and I provide custom web solutions for your services. </p>
     </article>
     <article className="grid lg:w-1/2 grid-rows-2 grid-cols-2 gap-x-4 text-xl lg:text-2xl lg:ml-10 px-10 lg:px-0 mt-8 lg:h-32 h-28">
    
