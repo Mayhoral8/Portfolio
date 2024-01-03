@@ -11,7 +11,7 @@ export const projectData = [
         title:'Techify',
         media: techify,
         description: 'Techify is a gadgets e-commerce web store',
-        liveLink: 'https://techify2.netlify.app',
+        liveLink: 'https://techify1.netlify.app',
         sourceLink: ''
     },
     {
@@ -19,7 +19,7 @@ export const projectData = [
         title:'Tasky',
         media: tasky,
         description: 'Tasky is a full-stack task management application built for keeping track of tasks',
-        liveLink: '',
+        liveLink: 'https://todo-mayhoral.netlify.app',
         sourceLink: ''
     },
     {
@@ -56,7 +56,7 @@ export const projectData = [
     },
     {
         id: 7,
-        title:'Tasky',
+        title:'Unscramble',
         media: '',
         description: '',
         liveLink: '',
