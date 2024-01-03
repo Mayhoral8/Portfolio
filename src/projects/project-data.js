@@ -2,7 +2,7 @@
 import techify from '../assets/project-gifs/techify.gif'
 import tasky from '../assets/project-gifs/tasky.gif'
 import linklop from '../assets/project-gifs/linklop.gif'
-
+ 
 
 export const projectData = [
 

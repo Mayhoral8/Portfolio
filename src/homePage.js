@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import nodejs from './assets/stack-images/nodejs.png'
 import reactjs from './assets/stack-images/reactjs.png'
 import mongodb from './assets/stack-images/mongodb.png'
+import ts from './assets/stack-images/ts.png'
 import ProjectList from "./projects/projectList";
 import {PiCaretRightBold} from 'react-icons/pi'
 import {RxCaretRight} from 'react-icons/rx'
@@ -44,6 +45,7 @@ function Homepage(){
                 <img src={nodejs} alt="nodejs" className="h-20"/>
                 <img src={reactjs} alt="reactjs" className="h-20"/>
                 <img src={mongodb} alt="reactjs" className="h-20"/>
+                <img src={ts} alt="reactjs" className="h-16"/>
 
 
             </div>
