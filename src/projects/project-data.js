@@ -25,14 +25,6 @@ export const projectData = [
         sourceLink: ''
     },
     {
-        id: 3,
-        title:'Zet Foundation',
-        media: zetFoundation,
-        description: 'This is a site for a non-profit organization dedicated to providing humanitarian aids',
-        liveLink: 'https://zetfoundation.org.ng',
-        sourceLink: ''
-    },
-    {
         id: 4,
         title:'Techify',
         media: techify,
